@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "scalapb/scalapb.proto";
+
+package com.mailjet.protobuf;
+
+message Ack {
+    string id = 1;
+}
+
+message Send {
+    string payload = 1;
+}
+
+message Exec {
+
+}
